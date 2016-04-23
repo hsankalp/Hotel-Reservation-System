@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LoginStaff</servlet-name>
+        <servlet-class>LoginStaff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginStaff</servlet-name>
+        <url-pattern>/LoginStaff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>SubmitReviews</servlet-name>
+        <servlet-class>SubmitReviews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitReviews</servlet-name>
+        <url-pattern>/SubmitReviews</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ViewReviews</servlet-name>
+        <servlet-class>ViewReviews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewReviews</servlet-name>
+        <url-pattern>/ViewReviews</url-pattern>
+    </servlet-mapping>
+	
+<servlet>
+        <servlet-name>AddFacility</servlet-name>
+        <servlet-class>AddFacility</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddFacility</servlet-name>
+        <url-pattern>/AddFacility</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>UpdateFacility</servlet-name>
+        <servlet-class>UpdateFacility</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateFacility</servlet-name>
+        <url-pattern>/UpdateFacility</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>AddRoomRent</servlet-name>
+        <servlet-class>AddRoomRent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddRoomRent</servlet-name>
+        <url-pattern>/AddRoomRent</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+	<servlet-name>AutoCompleteServlet</servlet-name>
+        <servlet-class>AutoCompleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoCompleteServlet</servlet-name>
+        <url-pattern>/autocomplete</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+	<servlet-name>AdminPage</servlet-name>
+        <servlet-class>AdminPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminPage</servlet-name>
+        <url-pattern>/AdminPage</url-pattern>
+    </servlet-mapping>
+	
+</web-app>
